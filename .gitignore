@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+__pycache__/
+*.pyc
+
+# Variables de entorno (contraseñas, claves)
+.env
+
+# Node / React
+node_modules/
+frontend/dist/
+
+# Modelos entrenados y datasets (pesados, no deben ir a GitHub)
+ml/datasets/
+ml/runs/
+ml/models/
+backend/capturas/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
